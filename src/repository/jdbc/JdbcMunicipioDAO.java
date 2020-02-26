@@ -13,7 +13,7 @@ import domain.model.UFVO;
 import repository.MunicipioDAO;
 
 public class JdbcMunicipioDAO implements MunicipioDAO {
-	
+
 	@Override
 	public void inserir(Municipio model) throws MunicipioException {
 		Connection c;
